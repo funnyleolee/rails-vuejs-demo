@@ -205,7 +205,6 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  coffee-rails (~> 4.1.0)
   execjs (~> 2.6)
   jbuilder (~> 2.0)
   jquery-rails
