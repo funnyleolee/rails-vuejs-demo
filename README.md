@@ -1,3 +1,6 @@
+## NOTE: Nothing really works at the moment. I just started this today.
+Not worth your time.
+
 ## Rails VueJS Demo
 
 Rails is awesome! VueJS is awesome! Now what?

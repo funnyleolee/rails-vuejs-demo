@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require foundation-sites/dist/foundation
 //= require vue/dist/vue
 //= require_tree .
