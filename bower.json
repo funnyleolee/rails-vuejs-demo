@@ -1,0 +1,11 @@
+{
+  "name": "Rails VueJS Demo",
+  "ignore": [
+    "**/.*",
+    "vendor/assets/components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "vue": "1.0.16"
+  }
+}
