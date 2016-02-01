@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'slim-rails', '~> 3.0', '>= 3.0.1'
+gem 'execjs', '~> 2.6'
 
 group :development, :test do
   gem 'byebug'
