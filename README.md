@@ -1,24 +1,11 @@
-## README
+## Rails VueJS Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails is awesome! VueJS is awesome! Now what?
 
-Things you may want to cover:
+This is my attempt to go through various examples (todo lists, blogs,
+etc) and see how nicely they play together.
 
-* Ruby version
+## Getting Started
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project uses bower to manage the front end dependencies. `bower
+install` before you `rails s`.

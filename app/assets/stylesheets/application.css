@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require foundation-sites/dist/foundation
+ *= require foundation-overrides
  *= require_tree .
  *= require_self
  */
