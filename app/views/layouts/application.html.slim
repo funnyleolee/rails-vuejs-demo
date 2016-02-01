@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title RailsVuejsDemo
+    = csrf_meta_tags
+    = action_cable_meta_tag
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  body
+    header
+      .top-bar
+        .top-bar-left
+          ul.menu
+            li = link_to 'Rails VueJS Demo', root_path
+    = yield
