@@ -11,6 +11,7 @@ gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 gem 'puma'
 gem 'slim-rails', '~> 3.0', '>= 3.0.1'
 gem 'execjs', '~> 2.6'
+gem 'reform', '~> 2.1'
 
 group :development, :test do
   gem 'byebug'
