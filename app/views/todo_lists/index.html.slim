@@ -1,11 +1,8 @@
-.row.small-up-1.medium-up-2.large-up-2
-  .column
-    h2 To Do Lists!
-  .column
-    .text-right = link_to 'New', new_todo_list_path, class: 'button'
+.page-header
+  .pull-right = link_to 'New', new_todo_list_path, class: 'btn btn-primary'
+  h2 To Do Lists!
 
-.row.small-up-1.medium-up-2.large-up-3
-  - @todo_lists.each do |todo_list|
-    .column
-      .callout
-        p = todo_list.name
+.row.
+  .col-md-4
+    - @todo_lists.each do |todo_list|
+      p = todo_list.name

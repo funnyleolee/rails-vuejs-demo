@@ -10,8 +10,10 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require foundation-sites/dist/foundation
- *= require foundation-overrides
+ *= require bootstrap-sass/assets/stylesheets/_bootstrap
+ *= require bootstrap-sass/assets/stylesheets/_bootstrap-sprockets
+ *= require bootstrap-sass/assets/stylesheets/_bootstrap-mincer
+ *= require bootstrap-sass/assets/stylesheets/_bootstrap-compass
  *= require_tree .
  *= require_self
  */

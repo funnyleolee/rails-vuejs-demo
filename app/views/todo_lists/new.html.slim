@@ -1,9 +1,9 @@
-.row
-  .column
-    h2 New Todo List
+.page-header
+  h2 New Todo List
 
-    form#todo-list-form
-      input type='text' v-model='todo_list.name' placeholder='Name (Groceries for BBQ party!)'
-      input type='text' v-for='item in todo_list.todo_items' v-model='item.description'
-      input type='text' v-model='new_todo_item.description' v-on:keyup.enter='addTodoItem'
-      a.button Submit
+form#todo-list-form
+  .form-group: input type='text' v-model='todo_list.name' placeholder='Name (Groceries for BBQ party!)'
+  .form-group v-for='item in todo_list.todo_items'
+    input type='text' v-model='item.description'
+  .form-group: input type='text' v-model='new_todo_item.description' v-on:keyup.enter='addTodoItem'
+  a.btn.btn-default Submit

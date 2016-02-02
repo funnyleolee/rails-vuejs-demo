@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require foundation-sites/dist/foundation
+//= require bootstrap-sass/assets/javascripts/bootstrap
+//= require bootstrap-sass/assets/javascripts/bootstrap-sprockets
 //= require vue/dist/vue
 //= require_tree .
